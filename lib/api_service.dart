@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static const String baseUrl = "http://192.168.1.19"; // for Android emulator
+  static const String baseUrl = "http://192.168.1.19"; // 
 
   static Future<bool> register(String email, String password) async {
     final response = await http.post(
